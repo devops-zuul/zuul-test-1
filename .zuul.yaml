@@ -34,3 +34,7 @@
     check:
       jobs:
         - noop
+
+- job:
+    name: base
+    parent: null
