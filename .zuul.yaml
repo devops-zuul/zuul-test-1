@@ -36,4 +36,3 @@
     check:
       jobs:
         - noop
-        - otherone
