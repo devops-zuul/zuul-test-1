@@ -8,6 +8,9 @@
         action:
           - opened
           - changed
+          - comment
+        comment:
+          - '^recheck.*$'
     success:
       github_conn:
         comment: true
