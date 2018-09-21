@@ -1,3 +1,14 @@
+- pipeline:
+    name: check
+    manager: independent
+    trigger:
+      github_conn:
+        event:
+          - pull_request
+        action:
+          - opened
+          - changed
+
 - project:
     name: jluk-codi-org/zuul-test
     check:
