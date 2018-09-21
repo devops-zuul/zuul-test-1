@@ -1,0 +1,5 @@
+- project:
+    name: jluk-codi-org/zuul-test
+    check:
+      jobs:
+        - noop
