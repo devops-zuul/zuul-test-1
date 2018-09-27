@@ -1,5 +1,6 @@
 - pipeline:
     name: check
+    post-review: true
     manager: independent
     trigger:
       github_conn:
