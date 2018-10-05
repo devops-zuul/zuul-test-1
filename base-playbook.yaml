@@ -2,3 +2,7 @@
   tasks:
     - name: Start zuul_console daemon.
       zuul_console:
+    - zuul_return:
+        data:
+          zuul:
+            log_url: http://zuul-webinar.codilime.com/logs/{{ zuul.build }}
