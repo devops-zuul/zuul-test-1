@@ -4,14 +4,15 @@
     manager: independent
     trigger:
       github_conn:
-        event:
-          - pull_request
-        action:
-          - opened
-          - changed
-          - comment
-        comment:
-          - '^recheck.*$'
+        - event: pull_request
+          action:
+            - opened
+            - changed
+        - event: pull_request
+          action:
+            - comment
+          comment:
+            - '^recheck.*$'
     success:
       github_conn:
         comment: true
