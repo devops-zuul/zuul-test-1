@@ -40,6 +40,12 @@
       jobs:
         - noop
         
+- project:
+    name: devops-zuul/zuul-test-1
+    check:
+      jobs:
+        - testjob
+        
 - job:
     name: base
     parent: null
