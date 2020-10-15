@@ -35,7 +35,7 @@
 
 
 - project:
-    name: jluk-codi-org/zuul-test
+    name: devops-zuul/zuul-test1
     check:
       jobs:
         - noop
